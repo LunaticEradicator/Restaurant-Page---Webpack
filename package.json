@@ -1,0 +1,32 @@
+{
+  "name": "restaurant-page---webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LunaticEradicator/Restaurant-Page---Webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LunaticEradicator/Restaurant-Page---Webpack/issues"
+  },
+  "homepage": "https://github.com/LunaticEradicator/Restaurant-Page---Webpack#readme",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.24.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
