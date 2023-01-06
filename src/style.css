@@ -55,7 +55,7 @@ h1 {
     margin-top: 5px;
 }
 
-.menu>* {
+ .menu>* {
     display: flex;
         justify-content: center;
         flex-grow: 1;
@@ -66,6 +66,7 @@ h1 {
     transition: all 1s;
     border: 2px solid #342215;
 }
+
 
 .menu>*:hover {
     transition: all 1s;
