@@ -17,7 +17,7 @@ const appendHTML = () => {
 
     home.textContent = 'Home';
     item.textContent = 'Item';
-    contact.textContent = 'Contact';
+    contact.textContent = 'About Us';
 
     home.classList.add('home');
     item.classList.add('item');
@@ -38,5 +38,5 @@ const appendHTML = () => {
 }
 
 export default appendHTML;
-export { item, h1, home, contact, quote, mainSection };
+export { item, h1, home, contact, quote, mainSection, menu };
 

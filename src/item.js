@@ -29,14 +29,14 @@ const foodPicSeven = document.createElement('div');
 const foodPicEight = document.createElement('div');
 
 function foodName() {
-    spanOne.textContent = 'Food Item';
-    spanTwo.textContent = 'Food Item';
-    spanThree.textContent = 'Food Item';
-    spanFour.textContent = 'Food Item';
-    spanFive.textContent = 'Food Item';
-    spanSix.textContent = 'Food Item';
-    spanSeven.textContent = 'Food Item';
-    spanEight.textContent = 'Food Item';
+    spanOne.textContent = 'Burger';
+    spanTwo.textContent = 'Salmon';
+    spanThree.textContent = 'Macroni';
+    spanFour.textContent = 'Shrimp ';
+    spanFive.textContent = 'Sushi';
+    spanSix.textContent = 'Steak';
+    spanSeven.textContent = 'Pasta';
+    spanEight.textContent = 'Mojito';
 
     itemOne.classList.add('itemOne');
     itemTwo.classList.add('itemTwo');
@@ -50,14 +50,14 @@ function foodName() {
 
     foodItems.classList.add('foodItems');
 
-    foodPicOne.classList.add('food');
-    foodPicTwo.classList.add('food');
-    foodPicThree.classList.add('food');
-    foodPicFour.classList.add('food');
-    foodPicFive.classList.add('food');
-    foodPicSix.classList.add('food');
-    foodPicSeven.classList.add('food');
-    foodPicEight.classList.add('food');
+    foodPicOne.classList.add('foodPicOne');
+    foodPicTwo.classList.add('foodPicTwo');
+    foodPicThree.classList.add('foodPicThree');
+    foodPicFour.classList.add('foodPicFour');
+    foodPicFive.classList.add('foodPicFive');
+    foodPicSix.classList.add('foodPicSix');
+    foodPicSeven.classList.add('foodPicSeven');
+    foodPicEight.classList.add('foodPicEight');
 
     itemOne.append(spanOne);
     itemTwo.append(spanTwo);

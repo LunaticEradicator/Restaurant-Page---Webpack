@@ -1,9 +1,7 @@
 
 import appendHTML from './appendItem';
 import './style.css'
-import homeTab from './Functions/homeFunction';
-import itemTab from './Functions/itemFunction';
-import contactTab from './Functions/contactFunction';
+import { homeTab, itemTab, contactTab } from './index';
 
 appendHTML();
 homeTab();
