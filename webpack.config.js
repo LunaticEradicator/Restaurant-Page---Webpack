@@ -5,8 +5,11 @@ module.exports = {
     mode: 'development',
     devtool: 'inline-source-map',
     entry: {
-        home: './src/home.js',
+        index: './src/index.js',
         appendItem: './src/appendItem.js',
+        home: './src/home.js',
+        item: './src/item.js',
+        aboutUs: './src/about us.js',
     },
     plugins: [
         new HtmlWebpackPlugin({

@@ -1,7 +1,6 @@
 :root {
     --font-color: burlywood;
     --page-animation: h1Anim 1.5s ease-out;
-    animation: name duration timing-function delay iteration-count direction fill-mode;
     --bg-size: cover;
     --transparent-bg: rgba(0, 0, 0, 0.685);
     --outline-color: #00d6c4;
@@ -101,8 +100,10 @@ h1 {
         background-color: var(--transparent-bg);
         border-radius: 10px;
         padding: 10px;
+animation: var(--page-animation);
             transition: 1.5s;
             }
+
 .foodItems>div>span {
     color: rgb(241, 221, 191);
 }
@@ -193,7 +194,7 @@ h1 {
     }
     
     .addOutline {
-        border-bottom: var(--border-style-left);
+        border-bottom: 2px solid var(--font-color);
     }
     
     .foodPicOne,
