@@ -1,4 +1,6 @@
 import { mainSection } from "./appendItem";
+import './style.css';
+
 
 const foodItems = document.createElement('div');
 const itemOne = document.createElement('div');
@@ -29,14 +31,14 @@ const foodPicSeven = document.createElement('div');
 const foodPicEight = document.createElement('div');
 
 function foodName() {
-    spanOne.textContent = 'Burger';
-    spanTwo.textContent = 'Salmon';
-    spanThree.textContent = 'Macroni';
-    spanFour.textContent = 'Shrimp ';
-    spanFive.textContent = 'Sushi';
-    spanSix.textContent = 'Steak';
-    spanSeven.textContent = 'Pasta';
-    spanEight.textContent = 'Mojito';
+    spanOne.textContent = 'Burger - 5$';
+    spanTwo.textContent = 'Salmon - 21$';
+    spanThree.textContent = 'Macroni - 8$';
+    spanFour.textContent = 'Shrimp - 15$';
+    spanFive.textContent = 'Sushi - 11$';
+    spanSix.textContent = 'Steak - 25$';
+    spanSeven.textContent = 'Pasta - 13$';
+    spanEight.textContent = 'Mojito - 17$';
 
     itemOne.classList.add('itemOne');
     itemTwo.classList.add('itemTwo');

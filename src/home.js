@@ -1,6 +1,5 @@
-
 import appendHTML from './appendItem';
-import './style.css'
+import './style.css';
 import { homeTab, itemTab, contactTab } from './index';
 
 appendHTML();
